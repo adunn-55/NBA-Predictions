@@ -14,7 +14,7 @@ The pipeline is split into three decoupled, modular layers to adhere to producti
 2. **The Feature & Modeling Layer (`pipeline/feature_engineering.py`):** Calculates rolling performance averages across 5-game windows. It applies a strict 1-game chronology shift to prevent future-data leakage before flattening individual team vectors into a unified matchup matrix. Models are trained using chronological time-series splits rather than random distributions.
 3. **The Deployment/Automation Orchestrator (`main.py` & GitHub Actions):** A scheduled cloud runner triggers every afternoon at 20:00 UTC, initializes the environment, executes the end-to-end pipeline, serializes the trained model (`nba_model.pkl`), and securely commits a live-rendered prediction dashboard (`predictions_today.md`) directly back to the repository.
 
-## 🛠️ Tech Stack & Core Tools
+## 🛡️ Tech Stack & Core Tools
 * **Language:** Python 3.10+
 * **Machine Learning:** XGBoost (Classifier Engine), Scikit-Learn
 * **Data Infrastructure:** Pandas, NumPy, Python-Requests, Regular Expressions (Re)
