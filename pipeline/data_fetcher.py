@@ -1,7 +1,7 @@
 import pandas as pd
 import time
 from nba_api.stats.endpoints import leaguegamefinder
-from nba_api.library.http import NBAStatsHTTP
+from nba_api.library.http import NBAHTTP
 
 def fetch_season_games(season_year: str) -> pd.DataFrame:
     """
@@ -22,7 +22,7 @@ def fetch_season_games(season_year: str) -> pd.DataFrame:
     }
     
     # Inject headers directly into the NBA API package session configuration
-    NBAStatsHTTP.headers = custom_headers
+    NBAHTTP.headers = custom_headers
     
     # Try connecting with a loop to gracefully handle temporary timeouts
     for attempt in range(3):
