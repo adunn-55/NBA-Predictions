@@ -1,5 +1,5 @@
-# 🏀 Daily NBA Predictions - June 06, 2026
+# 🏀 Daily NBA Predictions - June 07, 2026
 This file is automatically updated daily via a scheduled GitHub Actions workflow.
 | Home Team | Away Team | Predicted Winner | Home Win Probability |
 | :--- | :--- | :--- | :--- |
-| Boston Celtics | Dallas Mavericks | Boston Celtics | 64.8% |
+| Boston Celtics | Dallas Mavericks | Boston Celtics | 65.0% |
