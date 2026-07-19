@@ -1,4 +1,4 @@
-# 🏀 Daily NBA Predictions - July 18, 2026
+# 🏀 Daily NBA Predictions - July 19, 2026
 This file is automatically updated daily via a scheduled GitHub Actions workflow.
 | Home Team | Away Team | Predicted Winner | Home Win Probability |
 | :--- | :--- | :--- | :--- |
