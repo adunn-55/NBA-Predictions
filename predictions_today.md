@@ -1,4 +1,4 @@
-# 🏀 Daily NBA Predictions - October 23, 2026
+# 🏀 Daily NBA Predictions - October 24, 2026
 This file is automatically updated daily via a scheduled GitHub Actions workflow.
 | Home Team | Away Team | Predicted Winner | Home Win Probability |
 | :--- | :--- | :--- | :--- |
