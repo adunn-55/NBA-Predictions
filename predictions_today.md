@@ -1,4 +1,4 @@
-# 🏀 Daily NBA Predictions - November 17, 2026
+# 🏀 Daily NBA Predictions - November 18, 2026
 This file is automatically updated daily via a scheduled GitHub Actions workflow.
 | Home Team | Away Team | Predicted Winner | Home Win Probability |
 | :--- | :--- | :--- | :--- |
